@@ -4,7 +4,6 @@
     <div class="app-body">
       <Sidebar :navItems="nav"/>
       <main class="main">
-        <breadcrumb :list="list"/>
         <div class="container-fluid">
           <router-view></router-view>
         </div>
@@ -16,16 +15,14 @@
 
 <script>
 import nav from '../_nav'
-import { Header as AppHeader, Sidebar, Aside as AppAside, Footer as AppFooter, Breadcrumb } from '../components/'
+import { Header as AppHeader, Sidebar, Footer as AppFooter } from '../components/'
 
 export default {
   name: 'full',
   components: {
     AppHeader,
     Sidebar,
-    AppAside,
-    AppFooter,
-    Breadcrumb
+    AppFooter
   },
   data () {
     return {
