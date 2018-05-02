@@ -2,7 +2,7 @@
 
 > Open Source Admin Template
 
-## Build Setup Client
+## Build Setup
 
 ``` bash
 # install dependencies
