@@ -1,8 +1,10 @@
-# core-ui
+# Pale Restaurant System
 
-> Open Source Admin Template
+> Open Source
 
 ## Build Setup Client
+
+> Open client folder
 
 ``` bash
 # install dependencies
@@ -27,4 +29,14 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Build Setup Server
+
+> Open server folder
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+```
